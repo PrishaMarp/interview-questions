@@ -41,77 +41,77 @@ enum QuestionBank {
         InterviewQuestion(
             difficulty: 1,
             tier: .warmup,
-            prompt: "What is the difference between a class and a struct?"
+            prompt: "Tell me about yourself."
         ),
         InterviewQuestion(
             difficulty: 2,
             tier: .warmup,
-            prompt: "What does it mean for an operation to run in constant time? Give one example."
+            prompt: "What are your strengths?"
         ),
         InterviewQuestion(
             difficulty: 3,
             tier: .warmup,
-            prompt: "Why keep a project in version control if you are the only person writing it?"
+            prompt: "What are your weaknesses?"
         ),
         InterviewQuestion(
             difficulty: 4,
             tier: .easy,
-            prompt: "When would you choose a linked list instead of an array?"
+            prompt: "How much do you want to earn?"
         ),
         InterviewQuestion(
             difficulty: 5,
             tier: .easy,
-            prompt: "What is the difference between authentication and authorization?"
+            prompt: "Why do you want this job?"
         ),
         InterviewQuestion(
             difficulty: 6,
             tier: .easy,
-            prompt: "Explain a race condition, and name one way to prevent it."
+            prompt: "Why should we hire you?"
         ),
         InterviewQuestion(
             difficulty: 7,
             tier: .medium,
-            prompt: "How do you detect a cycle in a linked list without storing every node you have visited?"
+            prompt: "Where do you see yourself in five years?"
         ),
         InterviewQuestion(
             difficulty: 8,
             tier: .medium,
-            prompt: "A hash map lookup is usually constant time. When does looking up one key become much slower?"
+            prompt: "Tell me about a time you worked through a disagreement with a teammate."
         ),
         InterviewQuestion(
             difficulty: 9,
             tier: .medium,
-            prompt: "Compare a process and a thread. When would you add a process instead of another thread?"
+            prompt: "Describe a time you missed a deadline. What did you do?"
         ),
         InterviewQuestion(
             difficulty: 10,
             tier: .hard,
-            prompt: "Design a rate limiter for an API that runs on several servers. Where do the counters live, and why?"
+            prompt: "Tell me about a time you failed. What did you learn?"
         ),
         InterviewQuestion(
             difficulty: 11,
             tier: .hard,
-            prompt: "Adding a database index speeds up reads. Describe a case where that index makes the system slower overall."
+            prompt: "Describe a time you disagreed with your manager. How did you handle it?"
         ),
         InterviewQuestion(
             difficulty: 12,
             tier: .hard,
-            prompt: "What problem does consistent hashing solve when you add a node to a cache cluster?"
+            prompt: "Tell me about a time you had to persuade someone who did not agree with you."
         ),
         InterviewQuestion(
             difficulty: 13,
             tier: .expert,
-            prompt: "Design a URL shortener that still redirects users if one data center is unreachable. What do you replicate, and what can you afford to lose?"
+            prompt: "Tell me about a time you had to make a decision without all the information you wanted."
         ),
         InterviewQuestion(
             difficulty: 14,
             tier: .expert,
-            prompt: "After a deploy, p99 latency doubled but the average barely moved. How do you investigate?"
+            prompt: "Describe a time you made an unpopular decision. How did you bring people with you?"
         ),
         InterviewQuestion(
             difficulty: 15,
             tier: .expert,
-            prompt: "Two workers must not process the same job. Describe a distributed lock, and one failure that can still run the job twice."
+            prompt: "What is a belief you changed your mind about at work, and what changed it?"
         ),
     ]
 }

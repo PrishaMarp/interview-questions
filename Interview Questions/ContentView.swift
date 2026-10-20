@@ -8,6 +8,7 @@
 import Combine
 import Foundation
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct ContentView: View {
     @State private var session = QuestionSession()
